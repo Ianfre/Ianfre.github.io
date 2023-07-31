@@ -1,0 +1,175 @@
+.logo-top {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+}
+body {
+  background-color: rgba(16, 63, 121, 255);
+}
+
+.contenedor1 {
+  width: 90%;
+
+  margin: 10px auto;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px black;
+  background-color: #f3b229;
+}
+.navBotones {
+  display: flex;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-around;
+  background-color: #212121;
+  align-items: center;
+}
+
+.input {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Georgia;
+}
+
+.volver {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgba(16, 63, 121, 255);
+  font-style: oblique;
+  text-decoration: underline black;
+}
+
+h5 {
+  color: aliceblue;
+  font-family: Arial;
+  text-decoration: underline;
+}
+
+.contenedorHistoria {
+  border: solid 1px black;
+  border-radius: 2%;
+  text-align: justify;
+}
+
+.front {
+  padding: 1%;
+  font-family: 'Courier New';
+  font-size: small;
+  border: solid 1px black;
+  border-radius: 5%;
+}
+
+.radio {
+  margin-top: 20px;
+}
+.radioplay {
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  text-decoration: none;
+  font-family: 'Courier New';
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+button:hover {
+  cursor: crosshair;
+}
+
+a:hover {
+  cursor: inherit;
+}
+
+.micarousel {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.carousel-item-jugadores {
+  width: 100%;
+  height: 100%;
+}
+.imagen-jugador {
+  object-fit: cover;
+  object-position: top;
+}
+
+.volver {
+  text-align: center;
+}
+
+.volver a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 993px) {
+  .logo-top img {
+    width: 120px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .front p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contenedor1 {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-top {
+    margin-bottom: 20px;
+  }
+
+  .contenedor1 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .logo-top img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navBotones {
+    margin-bottom: 5px;
+  }
+
+  .front p {
+    font-size: 14px;
+  }
+}
